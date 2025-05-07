@@ -34,7 +34,7 @@ function App() {
           />
         </label>
         <button
-          type="button"
+          type="submit"
           onClick={() => {
             if(firstName && lastName){setSubmitted(true)}
             console.log(`First Name: ${firstName}, Last Name: ${lastName}`)
